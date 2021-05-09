@@ -10,6 +10,7 @@ public class RunnerClass {
 		Emp1.Name = "Ashwini";
 		Emp1.OrgName = "LG Soft India";
 		Emp1.Salary = 10000;
+	    Emp1.age = 34;
 		
 		Emp1.Display();
 		
