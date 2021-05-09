@@ -4,23 +4,27 @@ public class ClassA {
 	
 	public int Salary;
 	public String Name;
-	protected String OrgName;
+	public String OrgName;
 	int age;
-	
+	// Default Constructor
 	public ClassA() {
 		
 		System.out.println("Inside Constructor");
 	}
 	
+	//Parameterized Constructor
+	
 	public ClassA(int val1,String val2,String val3) {
 		
 		System.out.println("Inside param Constructor");
-	    Salary = val1;
-	    Name = val2;
-	    OrgName = val3;
+	    this.Salary = val1;
+	    this.Name = val2;
+	    this.OrgName = val3;
 	    
 		
 	}
+	
+	//methods
 	
 	public void Display() {
 		
