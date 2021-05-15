@@ -39,12 +39,20 @@ obj3.add(4.5, 7.8);
 obj3.add(4, 5);
 
 MethodOverrideChild obj4 = new MethodOverrideChild();
-obj4.display(2,4);*/
+obj4.display(2,4);
 
 AbstractChild obj5 = new AbstractChild();
 obj5.method2();
 obj5.method1();
 
+InterfaceChild obj6 = new InterfaceChild();
+obj6.method1();
+obj6.method2();
+obj6.method3();*/
+		
+EncapsulationExample obj7 = new EncapsulationExample();
+obj7.setSalary(10000);
+System.out.println(obj7.getSalary());
 
 	}
 
