@@ -30,13 +30,21 @@ public class RunnerClass {
 	    
 	    xyz1.Display();
 	    xyz1.show();
-	    xyz1.run();*/
+	    xyz1.run();
 		
 MethodOverloading obj3 = new MethodOverloading();
 obj3.add(5, 98);
 obj3.add(5, 7);
 obj3.add(4.5, 7.8);
 obj3.add(4, 5);
+
+MethodOverrideChild obj4 = new MethodOverrideChild();
+obj4.display(2,4);*/
+
+AbstractChild obj5 = new AbstractChild();
+obj5.method2();
+obj5.method1();
+
 
 	}
 
