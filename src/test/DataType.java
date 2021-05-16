@@ -52,7 +52,7 @@ public class DataType {
       System.out.println(cars[0]);
      
     String car [] = {"volvo", "bmw","ford"};
-    System.out.println(cars[2]);
+    System.out.println(car[2]);
       
       
       
