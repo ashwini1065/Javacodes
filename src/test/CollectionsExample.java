@@ -30,7 +30,7 @@ public class CollectionsExample {
 		Stack<String> mystack = new Stack<String>();
 		mystack.push("abc");
 		mystack.push("xyz");
-		//mystack.pop();
+	    mystack.pop();
 		mystack.push("pqr");
 		
 		System.out.println(mystack);
